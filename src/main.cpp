@@ -22,7 +22,7 @@ int main()
     SDL_SetRenderDrawColor(renderer,WHITE);
     SDL_Rect bg = {0,0,DISPLAY_WIDTH,DISPLAY_HEIGHT};
     SDL_RenderFillRect(renderer,&bg);
-
+    SDL_SetWindowTitle(window,"Plot");
 
     int clampoffset = 0;
     int predata[] = DATA;
